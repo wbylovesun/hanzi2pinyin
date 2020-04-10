@@ -1,0 +1,20 @@
+{
+    "name": "qosen/library",
+    "description": "A library to convert chinese characters to chinese pinyin.",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WangBuying",
+            "email": "wangbuying@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Qosen\\": "./"
+        }
+    }
+}
